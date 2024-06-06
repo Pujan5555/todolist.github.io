@@ -1,0 +1,84 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    background-color: lavender;
+    width: 100%;
+}
+.container{
+    display: flex;
+    height: 100vh;
+    justify-content: space-around;
+    align-items: center;
+}
+.form{
+    width: 500px;
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+.image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#image{
+    width: 500px;
+}
+#name, #age, #submit{
+    margin: 10px;
+    padding: 5px;
+}
+h1{
+    color:teal;
+}
+#info{
+    width: 400px;
+    margin: 10px;
+    background-color: whitesmoke;
+    padding: 10px;
+    border-radius: 8px;
+}
+.entry{
+    width: 250px;
+    margin: 10px;
+    padding: 10px;
+    background-color: black;
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+}
+.delete{
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    margin: 10px;
+    text-align: center;
+    font-weight: bold;
+    background-color: turquoise;
+    border: none;
+    cursor: pointer;
+}
+.delete:hover{
+    background-color: white;
+    transition-duration: 700ms;
+}
+#newName, #newAge{
+    padding: 5px;
+    margin: 10px;
+    border: none;
+    border-radius: 8px;
+}
+#Mode{
+    border: none;
+    background-color: black;
+    color: white;
+    padding: 5px;
+    border-radius: 8px;
+    cursor: pointer;
+}
